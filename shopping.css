@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    background-color: grey;
+    height:80px;
+    padding-left:10px;
+    align-items: center;
+}
+.logo{
+    font-size:24px;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    padding-right:10px;
+}
+img {
+
+    height: 500px;
+    width: 500px;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+button{
+    background-color: navajowhite;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
